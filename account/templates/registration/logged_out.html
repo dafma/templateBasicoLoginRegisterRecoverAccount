@@ -1,0 +1,8 @@
+{% extends "baseaccount.html" %}
+
+{% block title %}Logged out{% endblock %}
+
+{% block content %}
+    <h1>Has salido!</h1>
+    <p>Has cerrado tu session    <a href="{% url "login" %}"> ingresa de nuevo</a>.</p>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "baseaccount.html" %}
+
+{% block title %}crea una cuenta{% endblock %}
+
+{% block content %}
+    <h1>Crea una cuenta!</h1>
+    <p>porfavor registrate usando el siguiente formulario</p>
+    <form action="." method="post">
+        {{ user_form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="crear mi cuenta"></p>
+    </form>
+{% endblock %}

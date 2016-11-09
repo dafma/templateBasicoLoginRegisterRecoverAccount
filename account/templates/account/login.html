@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Log-in{% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static "css/base.css" %}"/>
+{% endblock %}
+{% block content %}
+    <h1>Log-in</h1>
+    <p>Por favor utilizael siguiente formulario para registrarte:</p>
+    <form action="." method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <p><input type="submit" value="Log-in"></p>
+    </form>
+{% endblock %}

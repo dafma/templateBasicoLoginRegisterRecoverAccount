@@ -1,0 +1,12 @@
+amqp==2.1.1
+billiard==3.5.0.2
+celery==4.0.0
+Django==1.10.3
+django-paypal==0.3.3
+djangorestframework==3.5.3
+kombu==4.0.0
+Pillow==3.4.2
+pytz==2016.7
+requests==2.11.1
+six==1.10.0
+vine==1.1.3
