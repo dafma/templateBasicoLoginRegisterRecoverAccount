@@ -3,7 +3,7 @@ billiard==3.5.0.2
 celery==4.0.0
 Django==1.10.3
 django-paypal==0.3.3
-djangorestframework==3.5.3
+djangorestframework==3.11.2
 kombu==4.0.0
 Pillow>=7.1.0
 pytz==2016.7
